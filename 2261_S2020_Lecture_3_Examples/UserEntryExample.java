@@ -28,7 +28,7 @@ public class UserEntryExample
 		
 		//	ask the user to enter a string...
 		System.out.print("Enter a string:  ");
-		myString = keyboard.next();
+		myString = keyboard.nextLine();
 		
 		//	display what the user has entered...
 		System.out.println("You entered the following string:  " + myString);
