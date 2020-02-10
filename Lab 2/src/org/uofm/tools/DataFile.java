@@ -38,10 +38,25 @@ public class DataFile
 		{
 			System.out.println("END OF FILE.");
 		}	
-		bR.close();
-		bW.close();
-		out.close();
-		successflag = true;
+		finally
+		{
+			try
+			{
+				bR.close();
+				bW.close();
+				out.close();
+				successflag = true;
+				
+				
+			}
+			
+
+			catch (Exception exc)
+			{
+				System.out.println(exc.getMessage());
+				successflag = false;
+			}
+		}
 		return successflag;
 	}
 

@@ -30,7 +30,7 @@ public class CreateDataImportFile {
 		boolean successflag;
 		DataFile dF = new DataFile();
 		ProgramHelper.ProgramDescription();
-		
+		System.out.println();
 		Scanner keyboard = new Scanner(System.in);
 		System.out.print("What is the input filepath: ");
 		String inputFile = keyboard.nextLine();
