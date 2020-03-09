@@ -32,7 +32,7 @@ public class SortingAlgorithms
 	 * @param data
 	 * @return
 	 */
-	public int[] BubbleSort(int[] data)
+	public static int[] BubbleSort(int[] data)
 	{
 		//	formatter used to display long numbers with commas...
 		DecimalFormat df = new DecimalFormat("#,###");
