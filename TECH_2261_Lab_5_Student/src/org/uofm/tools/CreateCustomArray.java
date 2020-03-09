@@ -7,7 +7,7 @@ package org.uofm.tools;
 //
 //	Assignment:		Laboratory Exercise #5
 //	File Name:		CreateCustomArray.java
-//	Developer:		Todd S. Canaday
+//	Developer:		Cameron L. Hall
 //	Version:		1.0
 //	Compiler:		Java ver. 1.8.0_221
 
@@ -16,8 +16,7 @@ import java.util.Random;
 /**
  * Class used to create custom arrays.
  * 
- * @author Todd S. Canaday
- * <br />Adjunct Professor
+ * @author Cameron L. Hall
  * <br />Herff College of Engineering
  * <br />The University of Memphis
  * @since 1.0
